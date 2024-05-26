@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-import meetupImg from '../../assets/meetup.jpg';
+import meetupImg from "../../assets/meetup.jpg";
 
 export default function EventsIntroSection() {
   return (
@@ -13,10 +13,10 @@ export default function EventsIntroSection() {
         Connect with amazing people <br />
         or <strong>create a new passion</strong>
       </h2>
-      <p>Anyone can advertise and join events on ads finder!</p>
+      <p>Anyone can advertise and join events on Third Party Creative UI!</p>
       <p>
         <Link to="/events/new" className="button">
-          Create your first event
+          Add Your First Creative
         </Link>
       </p>
     </section>

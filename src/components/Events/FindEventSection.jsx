@@ -20,7 +20,7 @@ export default function FindEventSection() {
     setSearch(searchElement.current.value);
   }
 
-  let content = <p>Please enter a search term and to find events.</p>;
+  let content = <p>Please enter a search term and to find creatives.</p>;
 
   if (isLoading) {
     content = <LoadingIndicator />;
@@ -50,7 +50,7 @@ export default function FindEventSection() {
   return (
     <section className="content-section" id="all-events-section">
       <header>
-        <h2>Find your next event!</h2>
+        <h2>Find your next creative!</h2>
         <form onSubmit={handleSubmit} id="search-form">
           <input
             type="search"

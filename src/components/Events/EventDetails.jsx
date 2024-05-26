@@ -121,7 +121,7 @@ export default function EventDetails() {
       <Outlet />
       <Header>
         <Link to="/events" className="nav-item">
-          View all Events
+          View all Creatives
         </Link>
       </Header>
       <article id="event-details">{content}</article>

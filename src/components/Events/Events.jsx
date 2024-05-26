@@ -11,7 +11,7 @@ export default function Events() {
       <Outlet />
       <Header>
         <Link to="/events/new" className="button">
-          New Event
+          New Creative
         </Link>
       </Header>
       <main>
